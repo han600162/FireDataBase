@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">FireDataBase</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="plz_upload_img">請上傳圖片</string>
+    <string name="download_success">下載成功</string>
+
+</resources>

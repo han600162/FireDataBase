@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/background"
+    tools:context=".Main3Activity">
+
+
+    <ImageButton
+        android:layout_marginTop="140dp"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/eatbut"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/btneat"
+        />
+
+    <ImageButton
+        android:id="@+id/playbut"
+        android:layout_marginTop="200dp"
+        android:layout_marginLeft="45dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/btnplay" />
+
+    <ImageButton
+        android:id="@+id/dressbut"
+        android:layout_alignTop="@id/playbut"
+        android:layout_marginLeft="240dp"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:background="@drawable/btndress"/>
+
+    <ImageButton
+        android:id="@+id/staybut"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@id/dressbut"
+        android:layout_marginTop="325dp"
+        android:background="@drawable/btnstay"/>
+
+
+
+    <Button
+        android:layout_centerHorizontal="true"
+        android:id="@+id/addbut"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="235dp"
+        android:background="@drawable/shape_oval"
+        android:text="新增"
+        android:textSize="25dp"
+        android:textColor="#FFFFFF"
+        />
+
+
+
+
+</RelativeLayout>
